@@ -2,7 +2,7 @@ class Discover < Formula
   homepage "https://github.com/opentable/discover"
   url "https://github.com/opentable/discover/archive/v0.0.6.tar.gz"
   version "0.0.6"
-  sha1 "55c3793bb18d6be8f6d7e53140f33e522f2b803c"
+  sha256 "55c3793bb18d6be8f6d7e53140f33e522f2b803c"
 
   depends_on "go" => :build
 
