@@ -2,7 +2,7 @@ class Discover < Formula
   homepage "https://github.com/opentable/discover"
 
   version "0.0.6"
-  sha256 "55c3793bb18d6be8f6d7e53140f33e522f2b803c"
+  sha256 "43669bd78f2552e0bf96f796d9ef328537b8a4031c895e617e66caed68b66571"
 
   url "https://github.com/opentable/discover/archive/v0.0.6.tar.gz"
 
