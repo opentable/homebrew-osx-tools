@@ -3,8 +3,8 @@ class Sous < Formula
   homepage "https://github.com/opentable/sous"
 
   # When the version of Sous changes, these two fields need to be updated
-  version "0.1.7"
-  sha256 "539ca446ecd9f931cb6eba24312f7dd1c724c4222140a701ababa3aef9265a1e"
+  version "0.1.8"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   url "https://github.com/opentable/sous/releases/download/v#{version}/sous-darwin-amd64_#{version}.tar.gz"
 
