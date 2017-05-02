@@ -1,26 +1,18 @@
-# Homebrew formulae for some internal OpenTable tools
+# Deprecated
 
-To access these formulae, you need to
+New public OpenTable homebrew formula can now be found a
+https://github.com/opentable/homebrew-public.
 
-    $ brew tap opentable/osx-tools
+**Please remove this tap using `brew untap opentable/osx-tools` thank you!**
 
-If you prefer to use Git over SSH (recommended if you have 2-factor auth turned on), use this instead:
+## sous
 
-    $ brew tap opentable/osx-tools git@github.com:opentable/homebrew-osx-tools
+The sous formula is now hosted at [opentable/public/sous] please run
+`brew uninstall opentable/osx-tools/sous` to remove the old version,
+then `brew tap opentable/public` and finally `brew install opentable/public/sous`
+to ensure you continue receiving updates to sous via `brew update` and `brew upgrade`.
 
-If you no longer want to use this tap:
+## discover
 
-    $ brew untap opentable/osx-tools
-
-# Updating the version of Sous
-
-To update which version of Sous is installed by the sous.rb formula,
-use the following command:
-
-```shell
-./scripts/update_sous.rb $VERSION
-```
-
-Replacing $VERSION with whatever version you want. This will update the sous.rb formula,
-which you'll then want to commit an push.
-
+The discover formula is old and no longer maintained here, but left in place
+in case anyone is using it. We will eventually update and migrate that formula too.
