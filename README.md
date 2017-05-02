@@ -1,9 +1,12 @@
-# Deprecated
+# Deprecated; DO NOT DELETE
 
 New public OpenTable homebrew formula can now be found a
 https://github.com/opentable/homebrew-public.
 
 **Please remove this tap using `brew untap opentable/osx-tools` thank you!**
+
+Do not delete this repo; it contains migrations that we should maintain for now.
+See `tap_migrations.json`.
 
 ## sous
 
